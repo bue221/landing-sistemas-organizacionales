@@ -1,14 +1,14 @@
-import React from 'react';
+import React from "react";
 
-import Header from '../partials/Header';
-import PageIllustration from '../partials/PageIllustration';
-import HeroHome from '../partials/HeroHome';
-import FeaturesBlocks from '../partials/FeaturesBlocks';
-import FeaturesZigZag from '../partials/FeaturesZigzag';
-import Testimonials from '../partials/Testimonials';
-import Newsletter from '../partials/Newsletter';
-import Banner from '../partials/Banner';
-import Footer from '../partials/Footer';
+import Header from "../partials/Header";
+import PageIllustration from "../partials/PageIllustration";
+import HeroHome from "../partials/HeroHome";
+import FeaturesBlocks from "../partials/FeaturesBlocks";
+import FeaturesZigZag from "../partials/FeaturesZigzag";
+import Testimonials from "../partials/Testimonials";
+import Newsletter from "../partials/Newsletter";
+import Banner from "../partials/Banner";
+import Footer from "../partials/Footer";
 
 function Home() {
   return (
@@ -19,19 +19,22 @@ function Home() {
       {/*  Page content */}
       <main className="grow">
         {/*  Page illustration */}
-        <div className="relative max-w-6xl mx-auto h-0 pointer-events-none" aria-hidden="true">
+        <div
+          className="relative max-w-6xl mx-auto h-0 pointer-events-none"
+          aria-hidden="true"
+        >
           <PageIllustration />
         </div>
 
         {/*  Page sections */}
         <HeroHome />
         <FeaturesBlocks />
-        <FeaturesZigZag />
-        <Testimonials />
+        {/* <FeaturesZigZag />
+        <Testimonials /> */}
         <Newsletter />
       </main>
 
-      <Banner />
+      {/* <Banner /> */}
 
       {/*  Site footer */}
       <Footer />
