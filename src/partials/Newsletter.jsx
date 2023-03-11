@@ -2,7 +2,7 @@ import React from "react";
 
 function Newsletter() {
   return (
-    <section>
+    <section id="contact">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         {/* CTA box */}
         <div

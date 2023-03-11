@@ -5,30 +5,15 @@ import PageIllustration from "../partials/PageIllustration";
 import Footer from "../partials/Footer";
 import Organigram from "../partials/Organigram";
 import FeaturesZigzag from "../partials/FeaturesZigzag";
+import Item from "../partials/Item";
 
 const AboutUs = () => {
   //
-  const Item = ({ text }) => (
-    <li className="flex items-start mb-2">
-      <svg
-        className="w-3 h-3 mt-2 fill-current text-green-500 mr-2 shrink-0"
-        viewBox="0 0 12 12"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-      </svg>
-      <span>{text}</span>
-    </li>
-  );
-  //
   return (
     <div className="flex flex-col min-h-screen overflow-hidden">
-      {/*  Site header */}
       <Header />
 
-      {/*  Page content */}
       <main className="grow">
-        {/*  Page illustration */}
         <div
           className="relative max-w-6xl mx-auto h-0 pointer-events-none"
           aria-hidden="true"
@@ -57,7 +42,6 @@ const AboutUs = () => {
             </p>
           </div>
         </div>
-
         <div>
           <div className="max-w-8xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="h1 mb-10" data-aos="fade-up">
