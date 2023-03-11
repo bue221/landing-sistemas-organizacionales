@@ -1,15 +1,20 @@
 import React, { useEffect } from "react";
 import { Routes, Route, useLocation } from "react-router-dom";
-
+// Aos styles
 import "aos/dist/aos.css";
 import "./css/style.css";
-
+// Prime Theme, Icons, Core
+import "primereact/resources/themes/lara-light-indigo/theme.css";
+import "primereact/resources/primereact.min.css";
+import "primeicons/primeicons.css";
+// Animations
 import AOS from "aos";
-
+// Pages
 import Home from "./pages/Home";
 import SignIn from "./pages/SignIn";
 import SignUp from "./pages/SignUp";
 import ResetPassword from "./pages/ResetPassword";
+import AboutUs from "./pages/aboutUs";
 
 function App() {
   const location = useLocation();
@@ -33,9 +38,8 @@ function App() {
     <>
       <Routes>
         <Route exact path="/" element={<Home />} />
-        <Route path="/signin" element={<SignIn />} />
-        <Route path="/signup" element={<SignUp />} />
-        <Route path="/reset-password" element={<ResetPassword />} />
+        <Route exact path="/about-us" element={<AboutUs />} />
+        <Route exact path="/more-about" element={<AboutUs />} />
       </Routes>
     </>
   );

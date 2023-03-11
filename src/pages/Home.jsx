@@ -9,6 +9,7 @@ import Testimonials from "../partials/Testimonials";
 import Newsletter from "../partials/Newsletter";
 import Banner from "../partials/Banner";
 import Footer from "../partials/Footer";
+import Organigram from "../partials/Organigram";
 
 function Home() {
   return (
@@ -29,12 +30,8 @@ function Home() {
         {/*  Page sections */}
         <HeroHome />
         <FeaturesBlocks />
-        {/* <FeaturesZigZag />
-        <Testimonials /> */}
         <Newsletter />
       </main>
-
-      {/* <Banner /> */}
 
       {/*  Site footer */}
       <Footer />

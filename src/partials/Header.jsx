@@ -58,7 +58,7 @@ function Header() {
             <ul className="flex grow justify-end flex-wrap items-center">
               <li>
                 <Link
-                  to="/"
+                  to="/about-us"
                   className="font-medium text-cyan-600 hover:text-gray-700 px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   Quienes somos
@@ -66,15 +66,7 @@ function Header() {
               </li>
               <li>
                 <Link
-                  to="/"
-                  className="font-medium text-cyan-600 hover:text-gray-700 px-4 py-3 flex items-center transition duration-150 ease-in-out"
-                >
-                  Acerca de la empresa
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/"
+                  to="/more-about"
                   className="btn-sm text-white bg-cyan-600 hover:bg-cyan-700 ml-3"
                 >
                   Conocer más
@@ -119,7 +111,7 @@ function Header() {
               <ul className="bg-gray-200 px-4 py-2">
                 <li>
                   <Link
-                    to="/"
+                    to="/about-us"
                     className="flex font-medium w-full text-cyan-600 hover:text-gray-600 py-2 justify-center"
                   >
                     Quienes somos
@@ -127,15 +119,7 @@ function Header() {
                 </li>
                 <li>
                   <Link
-                    to="/"
-                    className="flex font-medium w-full text-cyan-600 hover:text-gray-600 py-2 justify-center"
-                  >
-                    Acerca de la empresa
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="/"
+                    to="/more-about"
                     className="font-medium w-full inline-flex items-center justify-center border border-transparent px-4 py-2 my-2 rounded-sm text-white bg-cyan-600 hover:bg-cyan-700 transition duration-150 ease-in-out"
                   >
                     Conocer más
