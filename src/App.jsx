@@ -16,6 +16,7 @@ import SignUp from "./pages/SignUp";
 import ResetPassword from "./pages/ResetPassword";
 import AboutUs from "./pages/aboutUs";
 import MoreAbout from "./pages/moreAbout";
+import OurTeam from "./pages/OurTeam";
 
 function App() {
   const location = useLocation();
@@ -41,6 +42,7 @@ function App() {
         <Route exact path="/" element={<Home />} />
         <Route exact path="/about-us" element={<AboutUs />} />
         <Route exact path="/more-about" element={<MoreAbout />} />
+        <Route exact path="/our-team" element={<OurTeam />} />
       </Routes>
     </>
   );

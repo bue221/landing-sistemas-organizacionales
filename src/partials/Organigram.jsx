@@ -28,8 +28,39 @@ export default function Organigram() {
               data: {
                 image: "",
                 name: "",
-                title: "Desarrollo de Negocios",
+                title: "Director comercial",
               },
+              children: [
+                {
+                  expanded: true,
+                  type: "person",
+                  data: {
+                    image: "",
+                    name: "",
+                    title: "Comercial",
+                  },
+                  children: [
+                    {
+                      expanded: true,
+                      type: "person",
+                      data: {
+                        image: "",
+                        name: "",
+                        title: "Auxiliar comercial",
+                      },
+                    },
+                    {
+                      expanded: true,
+                      type: "person",
+                      data: {
+                        image: "",
+                        name: "",
+                        title: "Auxiliar comercial",
+                      },
+                    },
+                  ],
+                },
+              ],
             },
             {
               expanded: true,
@@ -37,17 +68,19 @@ export default function Organigram() {
               data: {
                 image: "",
                 name: "",
-                title: "Especialistas en Ventas",
+                title: "Marketing digital",
               },
-            },
-            {
-              expanded: true,
-              type: "person",
-              data: {
-                image: "",
-                name: "",
-                title: "Marketing Digital",
-              },
+              children: [
+                {
+                  expanded: true,
+                  type: "person",
+                  data: {
+                    image: "",
+                    name: "",
+                    title: "Publicista",
+                  },
+                },
+              ],
             },
           ],
         },
@@ -61,22 +94,33 @@ export default function Organigram() {
           },
           children: [
             {
-              expanded: false,
+              expanded: true,
               type: "person",
               data: {
                 image: "",
                 name: "",
-                title: "Especialista en Logística",
+                title: "Director de Operaciones",
               },
-            },
-            {
-              expanded: false,
-              type: "person",
-              data: {
-                image: "",
-                name: "",
-                title: "Especialista en Control de Calidad",
-              },
+              children: [
+                {
+                  expanded: true,
+                  type: "person",
+                  data: {
+                    image: "",
+                    name: "",
+                    title: "Especialista en Control de Calidad",
+                  },
+                },
+                {
+                  expanded: true,
+                  type: "person",
+                  data: {
+                    image: "",
+                    name: "",
+                    title: "Especialista en logistica",
+                  },
+                },
+              ],
             },
           ],
         },
@@ -90,7 +134,7 @@ export default function Organigram() {
           },
           children: [
             {
-              expanded: false,
+              expanded: true,
               type: "person",
               data: {
                 image: "",
@@ -99,7 +143,7 @@ export default function Organigram() {
               },
             },
             {
-              expanded: false,
+              expanded: true,
               type: "person",
               data: {
                 image: "",
@@ -110,13 +154,35 @@ export default function Organigram() {
           ],
         },
         {
-          expanded: false,
+          expanded: true,
           type: "person",
           data: {
             image: "",
             name: "",
             title: "Finanzas",
           },
+          children: [
+            {
+              expanded: true,
+              type: "person",
+              data: {
+                image: "",
+                name: "",
+                title: "Contador",
+              },
+              children: [
+                {
+                  expanded: true,
+                  type: "person",
+                  data: {
+                    image: "",
+                    name: "",
+                    title: "Auxiliar administrativo",
+                  },
+                },
+              ],
+            },
+          ],
         },
       ],
     },

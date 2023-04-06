@@ -27,7 +27,7 @@ const MoreAbout = () => {
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="h1 mb-4" data-aos="fade-up">
               ¡Bienvenido a nuestra página de Estrategias, Politicas y Análisis
-              PEAS!
+              PESTAL!
             </h1>
             <p
               className="text-xl text-gray-400 mb-8"
@@ -63,7 +63,7 @@ const MoreAbout = () => {
           </div>
         </div>
         <div class="container max-w-3xl mx-auto my-10">
-          <h1 class="text-3xl font-bold mb-5">Análisis PEAS</h1>
+          <h1 class="text-3xl font-bold mb-5">Análisis PESTAL</h1>
 
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
             <div class="bg-white rounded-lg shadow-lg p-5">
@@ -175,9 +175,27 @@ const MoreAbout = () => {
                 </li>
               </ul>
             </div>
+            <div class="bg-white rounded-lg shadow-lg p-5">
+              <h2 class="text-xl font-bold mb-3">Ambiental:</h2>
+              <p>
+                La plataforma de recompensas puede ser vista como una forma de
+                mejorar el ambiente laboral al aumentar la motivación y
+                satisfacción de los empleados. Además, la plataforma también
+                puede fomentar prácticas laborales sostenibles y responsables.
+              </p>
+            </div>
+            <div class="bg-white rounded-lg shadow-lg p-5">
+              <h2 class="text-xl font-bold mb-3">Legal:</h2>
+              <p>
+                La plataforma de recompensas debe cumplir con todas las leyes y
+                regulaciones laborales y fiscales de los países donde opera,
+                además de proteger la privacidad y seguridad de los datos
+                personales de los empleados.
+              </p>
+            </div>
           </div>
           <p class="mt-10">
-            En resumen, el análisis PEAS es esencial para la startup que busca
+            En resumen, el análisis PETAL es esencial para la startup que busca
             motivar a sus trabajadores, ya que permite evaluar el entorno y
             diseñar una estrategia adaptativa para lograr el éxito empresarial y
             el bienestar de los trabajadores.

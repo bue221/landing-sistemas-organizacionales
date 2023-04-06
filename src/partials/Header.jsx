@@ -66,6 +66,14 @@ function Header() {
               </li>
               <li>
                 <Link
+                  to="/our-team"
+                  className="font-medium text-cyan-600 hover:text-gray-700 px-4 py-3 flex items-center transition duration-150 ease-in-out"
+                >
+                  Nuestro equipo
+                </Link>
+              </li>
+              <li>
+                <Link
                   to="/more-about"
                   className="btn-sm text-white bg-cyan-600 hover:bg-cyan-700 ml-3"
                 >
@@ -115,6 +123,14 @@ function Header() {
                     className="flex font-medium w-full text-cyan-600 hover:text-gray-600 py-2 justify-center"
                   >
                     Quienes somos
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/our-team"
+                    className="font-medium text-cyan-600 hover:text-gray-700 px-4 py-3 flex items-center transition duration-150 ease-in-out"
+                  >
+                    Nuestro equipo
                   </Link>
                 </li>
                 <li>
