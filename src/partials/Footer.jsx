@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import AvatarFooter from "./AvatarFooter";
 
 function Footer() {
   return (
@@ -25,9 +26,26 @@ function Footer() {
               <div className="text-gray-800 text-center">
                 "Recompensas que inspiran, motivan y transforman."
               </div>
+              <h6 className="h6 text-lg font-bold text-center mt-4">
+                Integrantes:
+              </h6>
+              <div className="text-gray-800 text-center m-2 flex items-center justify-center flex-col gap-4">
+                <AvatarFooter name="Juan Felipe Forero Estrada" />
+                <AvatarFooter
+                  name="Andres Camilo Plaza Jimenez"
+                  img="https://pps.whatsapp.net/v/t61.24694-24/338989187_173474605564955_1362084939996284116_n.jpg?ccb=11-4&oh=01_AdSFxUL2Q3__ilskry7eBpn7SieRYGUd7-BhCTHf3AxyEw&oe=643CEA27"
+                />
+                <AvatarFooter
+                  name="Eric Fabian Ramirez Aguilar"
+                  img="https://pps.whatsapp.net/v/t61.24694-24/328122806_1514781795677854_7465110881807751255_n.jpg?ccb=11-4&oh=01_AdS-HQW5rWEAYnOF_rXJukgJHO5KZzvLQfXBSASq_cg40w&oe=643D14FE"
+                />
+                <AvatarFooter
+                  name="Pablo Andres Triana Muñoz"
+                  img="https://pps.whatsapp.net/v/t61.24694-24/317704240_909615627020230_7221608531741271936_n.jpg?ccb=11-4&oh=01_AdRhnO4n9YWDwFxIkzM-7rsZLyOhX7PzvThYZ9S0hpxERQ&oe=643CF9E7"
+                />
+              </div>
             </div>
           </div>
-
           {/* Bottom area */}
           <div className="md:flex md:items-center md:justify-center">
             <div className="text-gray-400 text-sm mr-4">

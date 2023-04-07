@@ -6,7 +6,6 @@ import Footer from "../partials/Footer";
 import Organigram from "../partials/Organigram";
 import FeaturesZigzag from "../partials/FeaturesZigzag";
 import Item from "../partials/Item";
-import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 import InfoOrganigram from "../partials/info";
 
 const AboutUs = () => {
@@ -52,9 +51,6 @@ const AboutUs = () => {
             <Organigram />
           </div>
           <div className="max-w-8xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h1 mb-10" data-aos="fade-up">
-              Estrategias por area
-            </h1>
             <InfoOrganigram />
           </div>
         </div>

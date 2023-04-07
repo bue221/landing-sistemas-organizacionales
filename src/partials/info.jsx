@@ -1,14 +1,13 @@
 import React from "react";
 import ReactMarkdown from "react-markdown";
 
-//TODO improve
 const InfoOrganigram = () => {
   return (
-    <div className="px-20 mb-6">
-      <ReactMarkdown>
+    <div className="px-20 mb-6 flex items-center justify-center">
+      <ReactMarkdown className="prose w-full">
         {`
-     # Objetivos operacionales por áreas:
-\n
+# Objetivos operacionales por áreas:
+
 **Tecnología:** Mantener la plataforma de recompensas actualizada y asegurar la disponibilidad continua del servicio, resolver cualquier problema técnico que surja y garantizar la seguridad y privacidad de los datos de los usuarios.
 
 **Operaciones:** Proporcionar un servicio al cliente excepcional, responder rápidamente a las consultas y problemas de los clientes, garantizar la eficiencia de la plataforma de recompensas y la calidad de los servicios ofrecidos.
@@ -18,6 +17,8 @@ const InfoOrganigram = () => {
 **Producto:** Desarrollar nuevas características y mejoras para la plataforma de recompensas, identificar las necesidades y deseos de los clientes y trabajar para mejorar continuamente la plataforma.
 
 **Finanzas:** Administrar los recursos financieros de la empresa de manera efectiva, maximizar la rentabilidad y minimizar los costos.
+
+----
 
 # Objetivos estratégicos por áreas:
 
@@ -31,6 +32,7 @@ const InfoOrganigram = () => {
 
 **Finanzas:** Establecer una gestión financiera eficaz y eficiente, maximizar la rentabilidad y minimizar los costos, mantener un crecimiento rentable y sostenible.
 
+----
 
 # Objetivos tácticos por áreas:
 
