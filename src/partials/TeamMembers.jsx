@@ -1,7 +1,7 @@
 import React from "react";
 
 const TeamMembers = ({ members }) => {
-  const Item = ({ name, job, image }) => {
+  const Item = ({ name, job, image, description }) => {
     return (
       <div class="w-full bg-white rounded-lg p-12 flex flex-col justify-center items-center">
         <div class="mb-8">
@@ -14,15 +14,21 @@ const TeamMembers = ({ members }) => {
         <div class="text-center">
           <p class="text-xl text-gray-700 font-bold mb-2">{name}</p>
           <p class="text-base text-gray-400 font-normal">{job}</p>
+          <p class="text-xs text-black font-normal">{description}</p>
         </div>
       </div>
     );
   };
   return (
     <section class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-4 py-12">
-      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6 items-center">
         {members.map((member) => (
-          <Item name={member.name} job={member.job} image={member.img} />
+          <Item
+            name={member.name}
+            job={member.job}
+            image={member.img}
+            description={member.description}
+          />
         ))}
       </div>
     </section>
