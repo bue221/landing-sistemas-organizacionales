@@ -17,6 +17,7 @@ import ResetPassword from "./pages/ResetPassword";
 import AboutUs from "./pages/aboutUs";
 import MoreAbout from "./pages/moreAbout";
 import OurTeam from "./pages/OurTeam";
+import MacroProcesosPage from "./pages/macroProcesos";
 
 function App() {
   const location = useLocation();
@@ -41,6 +42,7 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route exact path="/about-us" element={<AboutUs />} />
+        <Route exact path="/macroprocesos" element={<MacroProcesosPage />} />
         <Route exact path="/more-about" element={<MoreAbout />} />
         <Route exact path="/our-team" element={<OurTeam />} />
       </Routes>
