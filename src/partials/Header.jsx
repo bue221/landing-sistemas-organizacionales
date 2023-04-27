@@ -144,6 +144,15 @@ function Header() {
                 </li>
                 <li>
                   <Link
+                    target="_blank"
+                    to="/macroprocesos"
+                    className="font-medium text-cyan-600 hover:text-gray-700 px-4 py-3 flex items-center transition duration-150 ease-in-out"
+                  >
+                    Macroprocesos
+                  </Link>
+                </li>
+                <li>
+                  <Link
                     to="/more-about"
                     className="font-medium w-full inline-flex items-center justify-center border border-transparent px-4 py-2 my-2 rounded-sm text-white bg-cyan-600 hover:bg-cyan-700 transition duration-150 ease-in-out"
                   >
