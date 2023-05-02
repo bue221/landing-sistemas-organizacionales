@@ -71,7 +71,7 @@ function Header() {
                   to="/our-direction-process"
                   className="font-medium text-cyan-600 hover:text-gray-700 px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >
-                  Procesos de direccion
+                  Procesos de dirección
                 </Link>
               </li>
               <li>
@@ -175,7 +175,7 @@ function Header() {
                     to="/our-direction-process"
                     className="font-medium text-cyan-600 hover:text-gray-700 px-4 py-3 flex items-center transition duration-150 ease-in-out"
                   >
-                    Procesos de direccion
+                    Procesos de dirección
                   </Link>
                 </li>
                 <li>

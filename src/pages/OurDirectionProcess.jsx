@@ -1,5 +1,5 @@
 import React from "react";
-import filePDF from "../pdf/ProcesosDeDireccion.pdf";
+import filePDF from "../pdf/Procesos.pdf";
 
 const OurDirectionProcess = () => {
   return (
