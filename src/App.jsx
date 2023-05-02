@@ -18,6 +18,8 @@ import AboutUs from "./pages/aboutUs";
 import MoreAbout from "./pages/moreAbout";
 import OurTeam from "./pages/OurTeam";
 import MacroProcesosPage from "./pages/macroProcesos";
+import OurBsc from "./pages/ourBsc";
+import OurDirectionProcess from "./pages/OurDirectionProcess";
 
 function App() {
   const location = useLocation();
@@ -45,6 +47,12 @@ function App() {
         <Route exact path="/macroprocesos" element={<MacroProcesosPage />} />
         <Route exact path="/more-about" element={<MoreAbout />} />
         <Route exact path="/our-team" element={<OurTeam />} />
+        <Route exact path="/our-bsc" element={<OurBsc />} />
+        <Route
+          exact
+          path="/our-direction-process"
+          element={<OurDirectionProcess />}
+        />
       </Routes>
     </>
   );
