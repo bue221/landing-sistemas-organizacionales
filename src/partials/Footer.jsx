@@ -29,7 +29,7 @@ function Footer() {
               <h6 className="h6 text-lg font-bold text-center mt-4">
                 Integrantes:
               </h6>
-              <div className="text-gray-800 text-center m-2 flex items-center justify-center flex-col gap-4">
+              <div className="text-gray-800 text-center m-2 flex items-center justify-center flex-wrap  flex-col md:flex-row md:mt-4 gap-4">
                 <AvatarFooter name="Juan Felipe Forero Estrada" />
                 <AvatarFooter
                   name="Andres Camilo Plaza Jimenez"

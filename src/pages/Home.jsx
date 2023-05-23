@@ -10,32 +10,17 @@ import Newsletter from "../partials/Newsletter";
 import Banner from "../partials/Banner";
 import Footer from "../partials/Footer";
 import Organigram from "../partials/Organigram";
+import NavbarTest from "../partials/TestHeader";
+import { navbarOptions } from "../utils/Menu";
 
 function Home() {
   return (
-    <div className="flex flex-col min-h-screen overflow-hidden">
-      {/*  Site header */}
-      <Header />
-
-      {/*  Page content */}
-      <main className="grow">
-        {/*  Page illustration */}
-        <div
-          className="relative max-w-6xl mx-auto h-0 pointer-events-none"
-          aria-hidden="true"
-        >
-          <PageIllustration />
-        </div>
-
-        {/*  Page sections */}
-        <HeroHome />
-        <FeaturesBlocks />
-        <Newsletter />
-      </main>
-
-      {/*  Site footer */}
-      <Footer />
-    </div>
+    <>
+      {/*  Page sections */}
+      <HeroHome />
+      <FeaturesBlocks />
+      <Newsletter />
+    </>
   );
 }
 
