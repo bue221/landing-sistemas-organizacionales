@@ -22,7 +22,7 @@ import Structure from "./pages/structure";
 import Estrategias from "./pages/estrategias";
 import Valors from "./pages/valors";
 import Politicas from "./pages/politics";
-import TypeSociety from "./pages/TypeSociety";
+import TypeSociety from "./pages/typeSociety";
 
 function App() {
   const location = useLocation();
