@@ -34,6 +34,10 @@ export const navbarOptions = [
                 label: "Tipo de sociedad",
                 url: "/company-type",
             },
+            {
+                label: "CTS",
+                url: "/CTS",
+            },
         ],
     },
     {

@@ -23,6 +23,7 @@ import Estrategias from "./pages/estrategias";
 import Valors from "./pages/valors";
 import Politicas from "./pages/politics";
 import TypeSociety from "./pages/typeSociety";
+import CTS from "./pages/CTS";
 
 function App() {
   const location = useLocation();
@@ -56,6 +57,7 @@ function App() {
         </Route>
         {/* PDF routes*/}
         <Route exact path="/company-type" element={<TypeSociety />} />
+        <Route exact path="/CTS" element={<CTS />} />
         <Route exact path="/macroprocess" element={<MacroProcesosPage />} />
         <Route exact path="/our-bsc" element={<OurBsc />} />
         <Route exact path="/strategies" element={<Estrategias />} />
