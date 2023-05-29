@@ -24,6 +24,7 @@ import Valors from "./pages/valors";
 import Politicas from "./pages/politics";
 import TypeSociety from "./pages/typeSociety";
 import CTS from "./pages/CTS";
+import MoreDirectionProcess from "./pages/moreDirectionProcess";
 
 function App() {
   const location = useLocation();
@@ -54,17 +55,22 @@ function App() {
           <Route exact path="/structure" element={<Structure />} />
           <Route exact path="/valors" element={<Valors />} />
           <Route exact path="/politics" element={<Politicas />} />
+          <Route
+            exact
+            path="/our-direction-process"
+            element={<OurDirectionProcess />}
+          />
+          <Route exact path="/CTS" element={<CTS />} />
+          <Route exact path="/company-type" element={<TypeSociety />} />
         </Route>
         {/* PDF routes*/}
-        <Route exact path="/company-type" element={<TypeSociety />} />
-        <Route exact path="/CTS" element={<CTS />} />
         <Route exact path="/macroprocess" element={<MacroProcesosPage />} />
         <Route exact path="/our-bsc" element={<OurBsc />} />
         <Route exact path="/strategies" element={<Estrategias />} />
         <Route
           exact
-          path="/our-direction-process"
-          element={<OurDirectionProcess />}
+          path="/more-direction-process"
+          element={<MoreDirectionProcess />}
         />
       </Routes>
     </>

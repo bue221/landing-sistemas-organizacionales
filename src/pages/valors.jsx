@@ -12,6 +12,8 @@ const Valors = () => {
           <Item text="Transparencia: Nos comprometemos a ser transparentes en todas nuestras operaciones y a mantener una comunicación clara y abierta con nuestros clientes." />
           <Item text="Ética: Nos comprometemos a actuar con integridad y ética profesional en todas nuestras operaciones y relaciones." />
           <Item text="Equidad: Nos comprometemos a tratar a todos los trabajadores de manera justa y equitativa, sin discriminación de ningún tipo." />
+          <Item text="Responsabilidad social: Nos comprometemos a tener un impacto positivo en la sociedad y el medio ambiente. Buscamos promover prácticas sostenibles en todas nuestras operaciones y fomentar la responsabilidad social corporativa." />
+          <Item text="Diversidad e inclusión: Fomentamos un ambiente de trabajo inclusivo, donde se valore la diversidad de ideas, perspectivas y experiencias. Nos esforzamos por crear un entorno en el que todas las personas sean respetadas y tengan igualdad de oportunidades." />
         </ul>
       </div>
     </div>

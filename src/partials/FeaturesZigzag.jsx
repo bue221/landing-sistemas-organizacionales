@@ -122,10 +122,19 @@ function FeaturesZigzag() {
                   </div>
                   <h3 className="h3 mb-3">Visión</h3>
                   <p className="text-xl text-gray-400 mb-4">
-                    Nuestra visión es ser la plataforma de recompensas líder en
-                    el mercado, reconocida por su efectividad, innovación y
-                    compromiso con la mejora del ambiente laboral y el
-                    desarrollo profesional de los trabajadores.
+                    Nuestra visión es convertirnos en la plataforma líder en
+                    recompensas en un plazo de 5 años. Mediremos nuestro
+                    progreso a través de indicadores clave de desempeño, como la
+                    cuota de mercado, el número de clientes satisfechos, el
+                    crecimiento de nuestros ingresos y el reconocimiento de
+                    nuestra marca en el mercado. A corto plazo, nos enfocaremos
+                    en lograr hitos específicos en 1-3 años, como consolidar
+                    nuestra presencia nacional, expandir nuestra cartera de
+                    clientes y mejorar continuamente nuestra plataforma. A largo
+                    plazo, buscamos establecer alianzas estratégicas,
+                    expandirnos a nivel internacional, promover ambientes
+                    laborales positivos y contribuir al desarrollo profesional
+                    de los trabajadores.
                   </p>
                   {/* <ul className="text-lg text-gray-400 -mb-2">
                     <li className="flex items-center mb-2">

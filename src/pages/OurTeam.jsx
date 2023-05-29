@@ -4,6 +4,7 @@ import Header from "../partials/Header";
 import PageIllustration from "../partials/PageIllustration";
 import Footer from "../partials/Footer";
 import TeamMembers from "../partials/TeamMembers";
+import excel from "../pdf/ID RH 01 PERFIL DE CARGO.pdf";
 
 const OurTeam = () => {
   return (
@@ -204,6 +205,16 @@ const OurTeam = () => {
             ]}
           />
         </div>
+      </div>
+      <div className="flex justify-center items-center">
+        <a
+          href={excel}
+          target="_blank"
+          className=" text-center self-center btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4"
+          rel="noopener noreferrer"
+        >
+          Mira nuestros diferentes perfiles descritos
+        </a>
       </div>
     </>
   );
