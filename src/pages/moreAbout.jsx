@@ -7,6 +7,7 @@ import Item from "../partials/Item";
 import Organigram from "../partials/Organigram";
 //
 import FODA from "../images/Matriz FODA.jpg";
+import FODA2 from "../images/Matriz Análisis DAFO - FODA METAMERITO-1.png";
 
 const MoreAbout = () => {
   return (
@@ -36,6 +37,9 @@ const MoreAbout = () => {
         <h3 className="h3 mt-20 mb-3  text-center">Matriz FODA</h3>
         <div className="max-w-3xl align-self-center md:pr-4 lg:pr-12 xl:pr-16 flex align-center justify-center">
           <img src={FODA} alt="FODA" className="self-center" />
+        </div>
+        <div className="max-w-3xl align-self-center md:pr-4 lg:pr-12 xl:pr-16 flex align-center justify-center">
+          <img src={FODA2} alt="FODA2" className="self-center" />
         </div>
       </div>
       <div class="container max-w-3xl mx-auto my-10">
@@ -76,12 +80,7 @@ const MoreAbout = () => {
                   <strong>Tendencias del mercado:</strong>
                   Es importante analizar las tendencias del mercado y las
                   demandas de los clientes para poder ofrecer incentivos que
-                  sean relevantes y atractivos. Ciclos económicos: Los ciclos
-                  económicos pueden afectar la capacidad de la empresa para
-                  ofrecer incentivos atractivos a los trabajadores,
-                  especialmente en épocas de recesión económica. Competencia: La
-                  competencia en el mercado puede influir en los precios y la
-                  oferta de servicios de incentivos atractivos.
+                  sean relevantes y atractivos.
                 </p>
               </li>
               <li>
