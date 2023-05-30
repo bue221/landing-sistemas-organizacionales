@@ -6,7 +6,6 @@ import Footer from "../partials/Footer";
 import Item from "../partials/Item";
 import Organigram from "../partials/Organigram";
 //
-import FODA from "../images/Matriz FODA.jpg";
 import FODA2 from "../images/Matriz Análisis DAFO - FODA METAMERITO-1.png";
 
 const MoreAbout = () => {
@@ -35,9 +34,6 @@ const MoreAbout = () => {
       </div>
       <div className="flex flex-col items-center justify-center w-full">
         <h3 className="h3 mt-20 mb-3  text-center">Matriz FODA</h3>
-        <div className="max-w-3xl align-self-center md:pr-4 lg:pr-12 xl:pr-16 flex align-center justify-center">
-          <img src={FODA} alt="FODA" className="self-center" />
-        </div>
         <div className="max-w-3xl align-self-center md:pr-4 lg:pr-12 xl:pr-16 flex align-center justify-center">
           <img src={FODA2} alt="FODA2" className="self-center" />
         </div>
